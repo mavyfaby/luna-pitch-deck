@@ -1,0 +1,369 @@
+.google-red {
+    color: #DB4437;
+}
+
+.google-yellow {
+    color: #F4B400;
+}
+
+.google-green {
+    color: #0F9D58;
+}
+
+.google-blue {
+    color: #4285F4;
+}
+
+.shopee {
+    color: #F3511B;
+}
+
+.lazada {
+    color: #000083;
+}
+
+
+.particles-slide, .particles-slide canvas {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.inter {
+    font-family: 'Inter'
+}
+
+.inter-bold {
+    font-family: 'Inter-Bold';
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.title {
+    letter-spacing: -2px;
+    font-size: 56px;
+    
+    @extend .inter-bold
+}
+
+.subtitle {
+    font-size: 36px;
+}
+
+.team {
+    .zowe, .mavy {
+        .profile {
+            width: 100%;
+        }
+
+        .name {
+            font-size: 42px;
+            text-align: left;
+
+            @extend .inter-bold
+        }
+
+        .position {
+            font-size: 32px;
+            text-align: left;
+        }
+    }
+}
+
+.advantages {
+    li {
+        @extend .inter-bold
+    }
+}
+
+.app-name {
+    font-size: 92px;
+    @extend .inter-bold
+}
+
+.app-tagline {
+    font-size: 38px;
+}
+
+.slides {
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    .slide-1 {
+        img {
+            width: 70%;
+        }
+    }
+}
+
+.slides section {
+    .fragment { 
+        opacity: 0; 
+        visibility: hidden; 
+        transition: all 1s ease !important;
+    }
+
+    .slide-10-app-product {
+        width: 50%;
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.traction-grid {
+    display: grid;
+    grid-row-gap: 16px;
+    grid-template-columns: 2.5fr 2fr;
+
+    .traction-data {
+        * {
+            padding: 8px !important;
+        }
+
+        .traction-title {
+            font-size: 24px !important;
+            @extend .inter-bold;
+        }
+
+        .traction-subtitle {
+            font-size: 36px !important;
+            @extend .inter-bold;
+        }
+
+        > * {
+            padding: 16px !important;
+            margin: 24px;
+        }
+
+        .traction-data-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+    }
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.key-features * {
+    font-size: 36px;
+    margin: 0.5em 0;
+}
+
+.advantages li {
+    font-size: 42px;
+}
+
+.market {
+    .tam, .sam, .ms {
+        color: white;
+        width: 500px;
+        height: 500px;
+        @extend .rounded;
+    }
+
+    .tam {
+        background-color: #DB4437;
+    }
+
+    .sam {
+        background-color: #F4B400;
+    }
+
+    .ms {
+        background-color: #4285F4;
+    }
+}
+
+.market-1 {
+    .tam, .sam, .ms {
+        color: white;
+        width: 100%;
+        height: 100%;
+        @extend .inter-bold;
+        @extend .rounded;
+    }
+
+    .tam {
+        width: 450px;
+        height: 450px;
+        font-size: 52px;
+        background-color: #DB4437;
+    }
+
+    .sam {
+        width: 350px;
+        height: 350px;
+        font-size: 32px;
+        background-color: #F4B400;
+    }
+
+    .ms {
+        width: 250px;
+        height: 250px;
+        font-size: 28px;
+        background-color: #4285F4;
+    }
+}
+
+.market-grid {
+    display: grid;
+    grid-template-rows: 2fr auto;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+
+    .market-title {
+        font-size: 42px;
+        margin-bottom: 16px;
+        @extend .inter-bold;
+    }
+
+    .market-subtitle {
+        font-size: 32px;
+        @extend .inter;
+    }
+}
+
+.competition {
+    .compete-title {
+        font-size: 36px;
+        @extend .inter-bold;
+    }
+
+    .compete-info {
+        li {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.bmc {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-rows: 4fr 1fr;
+
+    .bmc-title {
+        font-size: 28px;
+        color: #4285F4;
+        @extend .inter-bold;
+    }
+
+    .bmc-info {
+        font-size: 24px !important;
+        @extend .inter;
+        
+        > ul > li {
+            font-size: 24px !important;
+            @extend .inter;
+        }
+    }
+
+    .bmc-cmp {
+        padding: 16px;
+    }
+
+    .bmc-top {
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        .bmc-top-inner {
+            display: grid;
+            grid-gap: 32px;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+
+    .bmc-bottom {
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.investing {
+    .invest-title {
+        font-size: 56px;
+        margin-bottom: 16px;
+        @extend .inter-bold;
+    }
+
+    .invest-subtitle {
+        font-size: 32px;
+        @extend .inter-bold;
+    }
+}
+
+.contact-us {
+    #contact-particles-light, #contact-particles-dark {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+    }
+
+    .logo {
+        img { 
+            position: absolute;
+            opacity: 0.2;
+        }
+
+        .contact-title {
+            font-size: 64px;
+            @extend .inter-bold;
+        }
+    }
+
+    .contact-info {
+        background-color: #212121;
+
+        .contact-title, .contact-subtitle {
+            text-align: left;
+            color: rgba(255, 255, 255, 0.87);
+            @extend .inter-bold;
+        }
+    
+        .contact-title {
+            font-size: 42px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .app-name {
+        font-size: 54px;
+    }
+    
+    .app-tagline {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+    
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .team {
+        .zowe, .mavy {
+            .name {
+                font-size: 24px;
+            }
+    
+            .position {
+                font-size: 20px;
+            }
+        }
+    }
+}

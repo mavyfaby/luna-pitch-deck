@@ -1,0 +1,34 @@
+{
+  "name": "luna-pitch-deck",
+  "version": "1.0.0",
+  "description": "Experience online shopping like never before",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scss": "sass --watch public/scss/style.scss public/css/style.min.css -s compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavyfaby/luna-pitch-deck.git"
+  },
+  "keywords": [
+    "pitch-deck",
+    "reveal.js",
+    "app"
+  ],
+  "author": "Maverick G. Fabroa",
+  "license": "NONE",
+  "bugs": {
+    "url": "https://github.com/mavyfaby/luna-pitch-deck/issues"
+  },
+  "homepage": "https://github.com/mavyfaby/luna-pitch-deck#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "chart.js": "^3.2.1",
+    "express": "^4.17.1",
+    "reveal.js": "^4.1.0",
+    "swiper": "^6.6.2",
+    "tailwindcss": "^2.1.2",
+    "tsparticles": "^1.27.0"
+  }
+}
